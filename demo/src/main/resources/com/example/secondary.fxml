@@ -19,7 +19,7 @@
          <children>
               <Label contentDisplay="CENTER" prefHeight="26.0" prefWidth="44.0" text="Andares" textAlignment="CENTER" />
             <TextField fx:id="qtdAndares" prefHeight="25.0" prefWidth="90.0" />
-            <Button mnemonicParsing="false" text="gerar" />
+            <Button mnemonicParsing="false" onAction="#gerarAndares" text="gerar" />
          </children>
       </HBox>
       <TabPane fx:id="tabs" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">

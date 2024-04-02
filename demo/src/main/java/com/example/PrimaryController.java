@@ -14,7 +14,6 @@ public class PrimaryController {
     @FXML
     private void switchToSecondary() throws IOException {
         new Alert(AlertType.INFORMATION, "Nome informado: "+txNome.getText()).showAndWait();
-
-        //App.setRoot("secondary");
+        App.setRoot("secondary");
     }
 }
